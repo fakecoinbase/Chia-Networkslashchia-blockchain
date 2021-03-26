@@ -18,7 +18,7 @@ dependencies = [
     "cryptography==2.9.2", #Python cryptography library for TLS
     "keyring==21.2.1",  # Store keys in MacOS Keychain, Windows Credential Locker
     "keyrings.cryptfile==1.3.4",  # Secure storage for keys on Linux (Will be replaced)
-    "PyYAML==5.3.1",  # Used for config file format
+    "PyYAML==5.4",  # Used for config file format
     "sortedcontainers==2.2.2",  # For maintaining sorted mempools
     "websockets==8.1.0",  # For use in wallet RPC and electron UI
 ]
